@@ -111,6 +111,11 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
+                <Link href="/delete-account" className="text-blue-200 hover:text-white transition-colors text-sm">
+                  Delete Account
+                </Link>
+              </li>
+              <li>
                 <a href="#" className="text-blue-200 hover:text-white transition-colors text-sm">
                   Cookie Policy
                 </a>
