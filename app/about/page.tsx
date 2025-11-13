@@ -1,7 +1,6 @@
 'use client';
 
-import Header from "@/components/Header";
-import Image from "next/image";
+import Footer from "@/components/Footer";
 
 export default function About() {
   return (
@@ -13,7 +12,6 @@ export default function About() {
       </div>
 
       <div className="flex flex-col w-full relative z-10">
-        <Header />
 
         <main className="flex-1 w-full">
           {/* Hero Section */}
@@ -28,29 +26,6 @@ export default function About() {
             <p className="text-gray-600 text-xl max-w-3xl mx-auto leading-relaxed mb-12">
               We&apos;re on a mission to make business management simple, accessible, and powerful for every entrepreneur.
             </p>
-          </section>
-
-          {/* Our Story Section */}
-          <section className="w-full bg-white py-20">
-            <div className="max-w-6xl mx-auto px-4">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-                <div>
-                  <h2 className="text-4xl font-bold text-black mb-6">Our Story</h2>
-                  <p className="text-gray-600 text-lg leading-relaxed mb-4">
-                    Limm was born from a simple observation: small businesses across Africa were struggling with outdated, complicated, and expensive business management tools.
-                  </p>
-                  <p className="text-gray-600 text-lg leading-relaxed mb-4">
-                    We set out to change that. Our team of passionate developers, designers, and business experts came together to create a solution that&apos;s powerful yet simple, affordable yet feature-rich.
-                  </p>
-                  <p className="text-gray-600 text-lg leading-relaxed">
-                    Today, we&apos;re proud to serve businesses of all sizes, helping them manage their operations, track their finances, and grow with confidence.
-                  </p>
-                </div>
-                <div className="relative h-96 bg-linear-to-br from-blue-100 to-indigo-100 rounded-2xl flex items-center justify-center">
-                  <div className="text-6xl">🚀</div>
-                </div>
-              </div>
-            </div>
           </section>
 
           {/* Our Values Section */}
@@ -117,6 +92,8 @@ export default function About() {
               Start Free Trial
             </button>
           </section>
+
+          <Footer />
         </main>
       </div>
     </div>

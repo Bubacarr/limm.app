@@ -1,6 +1,7 @@
 "use client";
 
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -304,7 +305,7 @@ export default function Home() {
         </section>
 
         {/* Get Started with App Section */}
-        <section className="w-full bg-linear-to-br from-[#001738] via-[#002855] to-[#001738] py-20 relative overflow-hidden">
+        <section id="app" className="w-full bg-linear-to-br from-[#001738] via-[#002855] to-[#001738] py-20 relative overflow-hidden">
           {/* Decorative elements */}
           <div className="absolute inset-0 opacity-10">
             <div className="absolute top-10 left-10 w-72 h-72 bg-blue-400 rounded-full filter blur-3xl"></div>
@@ -422,7 +423,7 @@ export default function Home() {
         </section>
 
         {/* Features Section */}
-        <section className="w-full max-w-6xl mx-auto py-20 px-4">
+        <section id="features" className="w-full max-w-6xl mx-auto py-20 px-4">
           <div className="text-center mb-16">
             <div className="inline-block bg-blue-100 text-[#001738] px-4 py-2 rounded-full text-sm font-semibold mb-6 animate-pulse">
               ✨ Core Features
@@ -444,7 +445,7 @@ export default function Home() {
         </section>
 
         {/* Pricing Section */}
-        <section className="w-full bg-linear-to-br from-[#001738] to-[#002855] py-20">
+        <section id="pricing" className="w-full bg-linear-to-br from-[#001738] to-[#002855] py-20">
           <div className="max-w-6xl mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
@@ -507,7 +508,7 @@ export default function Home() {
         </section>
 
         {/* Hardware Solutions Section */}
-        <section className="w-full bg-white py-20">
+        <section id="hardware" className="w-full bg-white py-20">
           <div className="max-w-6xl mx-auto px-4">
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-bold mb-4 text-black">
@@ -563,20 +564,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Footer */}
-        <footer className="w-full bg-[#001738] text-white py-8">
-          <div className="max-w-6xl mx-auto px-4">
-            <div className="flex justify-between items-center">
-              <p className="text-sm">
-                Let&apos;s work together
-              </p>
-              <div className="flex gap-6 text-sm">
-                <a href="#" className="hover:underline">Documentation</a>
-                <a href="#" className="hover:underline">Resources</a>
-              </div>
-            </div>
-          </div>
-        </footer>
+        <Footer />
       </main>
     </div>
   );

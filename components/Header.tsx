@@ -21,17 +21,17 @@ const Header = () => {
                 <nav className="flex gap-5 items-center">
                     <ul className="flex gap-5 text-white text-md">
                         <li>
-                            <a href="#">Pricing</a>
+                            <a href="/#pricing" className="hover:text-blue-300 transition-colors">Pricing</a>
                         </li>
                         <li>
-                            <a href="#">About</a>
+                            <a href="/about" className="hover:text-blue-300 transition-colors">About</a>
                         </li>
                         <li>
-                            <a href="#">Contact</a>
+                            <a href="/contact" className="hover:text-blue-300 transition-colors">Contact</a>
                         </li>
                     </ul>
         
-                    <button className="border border-white p-2 rounded-lg text-white">EN</button>
+                    <button className="border border-white p-2 rounded-lg text-white hover:bg-white hover:text-[#001738] transition-all">EN</button>
                 </nav>
             </div>
         </div>

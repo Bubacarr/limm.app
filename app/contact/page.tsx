@@ -1,6 +1,6 @@
 'use client';
 
-import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export default function Contact() {
   return (
@@ -12,7 +12,6 @@ export default function Contact() {
       </div>
 
       <div className="flex flex-col w-full relative z-10">
-        <Header />
 
         <main className="flex-1 w-full">
           {/* Hero Section */}
@@ -150,6 +149,8 @@ export default function Contact() {
               </div>
             </div>
           </section>
+
+          <Footer />
         </main>
       </div>
     </div>
