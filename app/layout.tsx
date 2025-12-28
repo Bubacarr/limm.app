@@ -16,6 +16,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Limm - Business Management Made Simple",
   description: "Empowering businesses across Africa with simple, powerful management tools. Track sales, manage inventory, and grow your business with Limm.",
+  verification: {
+    other: {
+      "facebook-domain-verification": "po2l9riq4ls7lznqoc3vw6ll604jdl",
+    },
+  },
 };
 
 export default function RootLayout({
